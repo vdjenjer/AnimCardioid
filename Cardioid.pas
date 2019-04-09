@@ -41,6 +41,7 @@ begin
   Window.Maximize;
   //Cardioid(10); 
   var Count := 100;
+  Window.Title := $'Кардиоида как огибающая семейства хорд ({Count} точек)';
   BeginFrameBasedAnimation((i: integer)->
   begin
     Cardioid(i);
